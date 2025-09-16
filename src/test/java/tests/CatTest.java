@@ -24,9 +24,9 @@ import static org.mockito.Mockito.when;
 class CatTest {
 
     @Mock
-    Feline mockFeline;
+    private Feline mockFeline;
 
-    Cat cat;
+    private Cat cat;
 
     @BeforeEach
     public void setUp() {

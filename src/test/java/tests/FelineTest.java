@@ -19,7 +19,7 @@ import static org.mockito.Mockito.verify;
 class FelineTest {
 
     @Spy
-    Feline spyFeline;
+    private Feline spyFeline;
 
     @Test
     @DisplayName("Проверка возврата списка еды для хищника")

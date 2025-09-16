@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class AnimalParameterizedTest {
 
-    Animal animal;
+    private Animal animal;
 
     @BeforeEach
     public void setUp() {
